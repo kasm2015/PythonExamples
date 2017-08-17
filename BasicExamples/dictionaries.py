@@ -24,3 +24,6 @@ westeros={'Syed':'Kotwal'}
 print(westeros)
 del westeros['Syed']
 print("Dictionary after deleting key --> ",westeros)
+
+#CHECK THE TYPE OF OBJECT
+print("Check type of object --> ",type(westeros))

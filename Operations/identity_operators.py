@@ -14,8 +14,8 @@ else:
     print("c is not present in d")
 
 m = 19
-n = 19
+n = 29
 if(m is not n):
-    print("m is present in n")
-else:
     print("m is not present in n")
+else:
+    print("m is present in n")

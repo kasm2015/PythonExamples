@@ -1,17 +1,17 @@
 #Addition
-print("Addition --> ",10+3)
+print("Addition of two numbers --> ",10+3)
 
 #Subtraction
-print("Subtraction --> ",10-4)
+print("Subtraction of two numbers --> ",10-4)
 
 #Multiplication
-print("Multiplication --> ",10*2)
+print("Multiplication of two numbers --> ",10*2)
 
 #Division
-print("Division --> ",10/2)
+print("Division of two numbers --> ",10/2)
 
 #Modulus
-print("Modulus --> ",10%2)
+print("Modulus of two numbers --> ",10%2)
 
 #Exponenet
-print("Exponent --> ",2**4)
+print("Exponent of two numbers --> ",2**4)

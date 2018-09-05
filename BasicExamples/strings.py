@@ -1,9 +1,10 @@
 #strings examples
 str1='welcome'
 str2=' to python world'
+print("\n Str1 -> ",str1,", Str2 -> ",str2)
 #this operation concatenates two strings using + operator
 str3=str1+str2
-print(str3)
+print("\nConcatenating two Strings -->> ",str3)
 
 #print first four letters of the string str3 ( it will print from index mentioned below and excludes the last mentioned index
 print("Print 0 to 3rd index as mentioned below --> ",str3[0:4])
@@ -24,8 +25,7 @@ print("Print length of a string --> ",len(str1))
 print("Locate a char in a string --> ",str1.index('w'))
 
 #COUNT THE NO OF OCCURANCES A CHARACTER HAS
-print('No of occurances for the character --> ',str1.count('o'))
-
+print('No of occurances for the character --> ',str1.count('e'))
 #PRINT A PART OF THE STRING
 print("PRINT PART OF THE STRING --> ",str1[0:3])
 

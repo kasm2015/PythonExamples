@@ -3,25 +3,26 @@ a = 18
 b =20
 
 a = a+b
-print(a)
+print("\nAssignment of two variables to one variable ",a)
 
 a+=b
-print(a)
+print("Shorthand Expresion for addition of two variables --> ",a)
 
 a = a-b
-print(a)
+print("Subtraction of two numbers --> ",a)
 
 a-=b
-print(a)
+print("Shorthand Expresion for substraction of two variables --> ",a)
 
 a = a*b
-print(a)
+print("Multiplication of two numbers --> ",a)
 
 a*=b
+print("Shorthand Expresion for Multiplication of two variables --> ",a)
 print(a)
 
 a = a / b
-print(a)
+print("Division of two numbers --> ",a)
 
 a/=b
-print(a)
+print("Shorthand Expresion for Division of two variables --> ",a)

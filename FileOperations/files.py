@@ -1,27 +1,32 @@
 #OPEN FILE
-f =open('C:/Maqbul Files/test.txt','w',encoding='utf-8')
-
+print("**************Creating file using python**************\n")
+f =open('E:/Python_RND/file_operation.txt','w',encoding='utf-8')
+print("\n")
+print("**************Writing to file using python**************")
 #WRITE CONTENTS TO FILE OBJECT
-f.write('Hi this is first line')
+f.write('Hi, this is first line writing using python code')
 #Close file after writing
 f.close();
 
 #READ A FILE
-f = open("c:/Maqbul Files/test.txt",'r',encoding='utf-8')
+f = open("E:/Python_RND/file_operation.txt",'r',encoding='utf-8')
 
 #READ first 6 characters
-#text = f.read(6)
-#print(text)
+print("Reading first 6 characters from a file")
+text = f.read(6)
+print(text)
+print("")
 
 #PRINT THE CONTENTS OF FILE USING READLINES() method
+print("\n")
+print("Reading all the lines from a file using python")
 print(f.readlines())
 f.close()
 
 #APPENDING CHARACTERS TO FILE
-'''
-f.open("c:/Maqbul Files/text.txt",'a',encoding='utf-8')
+
+f.open("E:/Python_RND/file_operation.txt",'a',encoding='utf-8')
 f.write("\n THIS IS MY SECOND LINE")
-print("Printing file after appending characters to a file")
+print("\n****************Printing file after appending characters to a file****************\n")
 print(f.readlines())
 f.close() 
-'''

@@ -1,5 +1,5 @@
 '''
-    script name     : sum2Numbers.py
+    script name     : employeedetails.py
     Author          : Syed Maqbul
     Description     : Write a program to read employee data from keyboard and Print.
                       Note : employee data contains empno,empname,empsal,empaddress
